@@ -10,6 +10,7 @@ import 'bloc_observer.dart';
 import 'layout/cubit/cubit.dart';
 import 'layout/cubit/states.dart';
 import 'layout/home_layout.dart';
+import 'modules/login/login.dart';
 
 void main() {
   BlocOverrides.runZoned(
@@ -55,7 +56,7 @@ class MyApp extends StatelessWidget {
               ),
               scaffoldBackgroundColor: const Color(0xFFFAFAFA),
             ),
-            home: const HomeLayout(),
+            home:  LoginScreen(),
           );
         },
       ),

@@ -33,7 +33,7 @@ class StandingsScreen extends StatelessWidget {
                   physics: const BouncingScrollPhysics(),
                   shrinkWrap: true,
                   scrollDirection: Axis.horizontal,
-                  itemCount: cubit.leagues.length,
+                  itemCount: cubit.leagues.length-1,
                   separatorBuilder: (context, index) =>
                       const SizedBox(width: 5),
                   itemBuilder: (context, index) => InkWell(
