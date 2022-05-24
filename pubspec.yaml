@@ -41,17 +41,8 @@ dependencies:
   dio: ^4.0.4
   google_fonts: ^2.3.1
   shared_preferences: ^2.0.13
-  smooth_page_indicator: ^1.0.0+2
-  carousel_slider: ^4.0.0
   flutter_native_splash: ^2.1.6
-  path: ^1.6.4
-  conditional_builder_null_safety: ^0.0.6
-  path_provider: ^2.0.9
-  modal_bottom_sheet: ^2.0.1
-  flutter_staggered_animations: "^1.0.0"
-  shimmer: ^2.0.0
   persistent_bottom_nav_bar: ^4.0.2
-  http:
 
 dev_dependencies:
   flutter_test:
