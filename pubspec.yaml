@@ -43,7 +43,7 @@ dependencies:
   shared_preferences: ^2.0.13
   flutter_native_splash: ^2.1.6
   persistent_bottom_nav_bar: ^4.0.2
-
+  conditional_builder_null_safety: ^0.0.6
 dev_dependencies:
   flutter_test:
     sdk: flutter
